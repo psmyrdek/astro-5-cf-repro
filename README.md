@@ -4,9 +4,13 @@ Reproducing the issue with Cloudflare Adapter & npm workspaces.
 
 ## How to
 
-1. npm install
-2. npm run dev:acf
+1. `npm install`
+2. `npm run dev:acf`
 3. Open http://localhost:3000 - notice issue with @it-astro:when
+
+## Example workaround
+
+1. `npm run fix` (see fix/rewrite-deps.js)
 
 ## Using workspaces
 
