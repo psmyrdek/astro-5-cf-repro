@@ -6,11 +6,10 @@
     "projects/astro-on-cloudflare"
   ],
   "scripts": {
-    "dev": "astro dev",
     "dev:acf": "npm run dev --workspace=projects/astro-on-cloudflare",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "build:acf": "npm run build --workspace=projects/astro-on-cloudflare",
+    "preview:acf": "npm run preview --workspace=projects/astro-on-cloudflare",
+    "astro:acf": "npm run astro --workspace=projects/astro-on-cloudflare"
   },
   "dependencies": {
     "@astrojs/cloudflare": "12.1.0",
