@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "exclude": ["node_modules", "public"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@/layouts/*": ["src/layouts/*"],
+      "@/components/*": ["src/components/*"],
+      "@/images/*": ["src/assets/images/*"],
+      "@/utils/*": ["src/utils/*"],
+      "@przeprogramowani/common/*": ["../common/*"]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "astro-on-cloudflare",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "check": "astro check",
+    "build": "npm run check && NODE_ENV=production astro build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {}
+}
