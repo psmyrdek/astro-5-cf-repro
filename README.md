@@ -8,6 +8,10 @@ Reproducing the issue with Cloudflare Adapter & npm workspaces.
 2. `npm run dev:acf`
 3. Open http://localhost:3000 - notice issue with @it-astro:when
 
+## Reference Workflow
+
+See this workflow run: https://github.com/psmyrdek/astro-5-cf-repro/actions/runs/13112878566/job/36580449315
+
 ## Example workaround
 
 1. `npm run fix` (see fix/rewrite-deps.js)
