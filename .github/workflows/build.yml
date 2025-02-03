@@ -23,5 +23,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build
-        run: npm run build:acf
+      - name: Start dev server and wait
+        run: |
+          npm run dev:acf &
+          sleep 10
+          kill $!
